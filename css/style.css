@@ -1,0 +1,122 @@
+
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('../fonts/raleway-regular.eot');
+    src: url('../fonts/raleway-regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/raleway-regular.woff2') format('woff2'),
+    url('../fonts/raleway-regular.woff') format('woff'),
+    url('../fonts/raleway-regular.ttf') format('truetype'),
+    url('../fonts/raleway-regular.svg#ralewayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ralewaylight';
+    src: url('../fonts/raleway-light.eot');
+    src: url('../fonts/raleway-light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/raleway-light.woff2') format('woff2'),
+    url('../fonts/raleway-light.woff') format('woff'),
+    url('../fonts/raleway-light.ttf') format('truetype'),
+    url('../fonts/raleway-light.svg#ralewaylight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ralewaysemibold';
+    src: url('../fonts/raleway-semibold.eot');
+    src: url('../fonts/raleway-semibold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/raleway-semibold.woff2') format('woff2'),
+    url('../fonts/raleway-semibold.woff') format('woff'),
+    url('../fonts/raleway-semibold.ttf') format('truetype'),
+    url('../fonts/raleway-semibold.svg#ralewaysemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.header{
+    width: 100%;
+    height: 20px;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+}
+
+body {
+    font-family: "ralewayregular", sans-serif;
+}
+
+.klamra{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.sit{
+    color: white;
+    float: left;
+}
+
+.sit span {
+    color: #02cf9f;
+}
+
+
+ul {
+    float: right;
+}
+
+li {
+    display: inline-block;
+    padding-left: 40px;
+}
+
+.clearfix{
+    clear: both;
+}
+
+/*.menu_rozwijane .submenu{*/
+    /*display: none;*/
+    /*background-color: black;*/
+/*}*/
+
+/*.menu_rozwijane li:hover ul{*/
+  /*display: block;*/
+/*}*/
+
+
+.sekcja1{
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    background: -moz-linear-gradient(top, rgba(254,254,254,1) 0%, rgba(254,254,254,1) 1%, rgba(228,228,228,1) 92%, rgba(226,226,226,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(254,254,254,1)), color-stop(1%, rgba(254,254,254,1)), color-stop(92%, rgba(228,228,228,1)), color-stop(100%, rgba(226,226,226,1)));
+    background: -webkit-linear-gradient(top, rgba(254,254,254,1) 0%, rgba(254,254,254,1) 1%, rgba(228,228,228,1) 92%, rgba(226,226,226,1) 100%);
+    background: -o-linear-gradient(top, rgba(254,254,254,1) 0%, rgba(254,254,254,1) 1%, rgba(228,228,228,1) 92%, rgba(226,226,226,1) 100%);
+    background: -ms-linear-gradient(top, rgba(254,254,254,1) 0%, rgba(254,254,254,1) 1%, rgba(228,228,228,1) 92%, rgba(226,226,226,1) 100%);
+    background: linear-gradient(to bottom, rgba(254,254,254,1) 0%, rgba(254,254,254,1) 1%, rgba(228,228,228,1) 92%, rgba(226,226,226,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#e2e2e2', GradientType=0 );
+}
+
+.fotel{
+    padding-top: 60px;
+    margin: 0 auto;
+    border: 1px solid black;
+    float: left;
+}
+
+.right_frame{
+    float: right;
+    border: 2px solid black;
+    width: 400px;
+}
