@@ -60,6 +60,7 @@ body {
 .klamra{
     width: 1200px;
     margin: 0 auto;
+    position: relative;
 }
 
 .sit{
@@ -113,10 +114,32 @@ li {
     margin: 0 auto;
     border: 1px solid black;
     float: left;
+    margin-left:100px;
+
 }
 
 .right_frame{
     float: right;
     border: 2px solid black;
     width: 400px;
+    margin-top: 100px;
+    text-align:center;
+    padding:20px;
+    margin-right:100px;
+}
+
+.right_frame p{
+    margin-top: 20px;
+}
+
+.arrow1{
+   position:absolute;
+    left:0;
+    top: 100px;
+}
+
+.arrow2{
+    position:absolute;
+    right:0;
+    top: 100px;
 }
